@@ -1,0 +1,38 @@
+.demo5
+{
+    .comment {
+		display: flex;
+		img { margin-right: 1em; }
+		.content { flex: 1; }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Irrelevant Styling
+.demo5
+{
+	max-width: 600px; margin: 0 auto; padding: 0 20px;
+	img { width: 100px; height: 100px; }
+	p:first-of-type { margin-top: 0; }
+}

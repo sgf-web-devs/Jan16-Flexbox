@@ -1,0 +1,54 @@
+.demo3
+{
+    .site_header{
+        display: flex; align-items: center;
+        img { width: 100%; }
+        nav {
+            flex: 1;
+            ul {
+                display: flex; justify-content: space-around;
+                // Either or
+                //li { flex: 1; text-align: center; }
+            }
+        }
+
+        //@include media($tablet)
+        //{
+        //    flex-direction: column;
+        //}
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Irrelevant Styling
+.demo3
+{
+    ul {
+        list-style: none; padding: 0; margin: 0; background: $color3;
+        a { color: rgba(255, 255, 255, 1); text-decoration: none; @include trans; }
+        a:hover { color: rgba(255, 255, 255, .5); }
+        //li { @include trans; }
+        //li:hover { background: $color1; }
+    }
+}

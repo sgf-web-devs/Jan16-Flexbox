@@ -1,0 +1,38 @@
+.demo1
+{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Irrelevant Styling
+.demo1
+{
+    div { padding: 20px; }
+    div:nth-child(1) { background: $color1; }
+    div:nth-child(2) { background: $color2; }
+    div:nth-child(3) { background: $color3; }
+    div:nth-child(4) { background: $color4; }
+    div:nth-child(5) { background: $color5; }
+}
