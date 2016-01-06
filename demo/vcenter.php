@@ -1,6 +1,6 @@
 <?php include('includes/header.php'); ?>
 
-<div class="demo4">
+<div class="vcenter">
     <div class="logo">
         <img src="/images/aviato.png" alt="">
     </div>

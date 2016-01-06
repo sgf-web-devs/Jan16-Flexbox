@@ -17,7 +17,7 @@ The main idea is to give the container the ability to change the width and heigh
 ---
 
 # [fit] `display: flex`
-^ Show demo1
+^ Show index page
 
 ---
 
@@ -91,6 +91,8 @@ Main/Cross Axis
 - align-items
 - align-content
 
+^ Demo properties.php - container section
+
 ---
 
 # Flex Item Properties
@@ -100,6 +102,7 @@ Main/Cross Axis
 - flex-basis (shorthand flex)
 - align-self
 
+^ Demo properties.php - items section
 
 --- 
 
@@ -110,7 +113,10 @@ Main/Cross Axis
 # Navigation
 Simple horizontal navigation that evenly distributes space amongst all of the nav items
 
+![inline fit] (menu.png)
+
 ^ Try to get responses about how this would normally be pulled off
+`navigation.php`
 
 ---
 
@@ -119,6 +125,7 @@ lfldf*(explitive)*jldfsl;jklfdg*(explitive)*sio;lfjfsoi;dfgkj;
 # [fit] JUST CENTER!
 
 ^ Try to get responses about how this would normally be pulled off
+`vcenter.php`
 
 ---
 
@@ -128,6 +135,7 @@ Logo on the left with a fixed width and variable content on the right(menu, sear
 ![inline fit] (headerLogo.png)
 
 ^ Try to get responses about how this would normally be pulled off
+`header-logo.php`
 
 ---
 
@@ -137,25 +145,38 @@ Think Facebook comments.  Small image on the left and content area to the right
 ![inline fit] (comment.png)
 
 ^ Try to get responses about how this would normally be pulled off
+`media.php`
 
 ---
 
-# Sticky Footer Thing
+# Sticky Footer
+
+^ Try to get responses about how this would normally be pulled off
+`footer.php`
 
 ---
 
 # Form Fields
 
+^ Try to get responses about how this would normally be pulled off
+`form.php`
+
 ---
 
-# Holy Grail
-Simple horizontal navigation that evenly distributes space amongst all of the nav items
+# Flex-wrap this up
 
-![inline fit] (holy-grail.png)
+- ! All || nothing
+- Browser Support
+- Core Layout
+- fine to use in simple and as needed scenarios
 
-^ Try to get responses about how this would normally be pulled off
+---
 
-
+# Fine Resources
+- [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [flexbox.io](http://flexbox.io/)
+- [DevTips YouTube](https://www.youtube.com/watch?v=G7EIAgfkhmg)
+- [Flexy Boxes](http://the-echoplex.net/flexyboxes/)
 
 
 
@@ -173,21 +194,3 @@ Simple horizontal navigation that evenly distributes space amongst all of the na
 
 
 [^1]: Image credit - [scotch.io](https://scotch.io/tutorials/a-visual-guide-to-css3-flexbox-properties).
-
-
-
-
-
-^ NOTES
-- holy grail, media object, header/logo, navigation, vertical centering
-
-Left to do
-- 1 comprehensive-esque demo of properties with boxes with comments for defaults, etc
-- Navigation slide image
-- Comment code out properly and make sure there is a good safety net
-- Sticky footer, form fields, holy grail(not live)
-- Make choice on media object image
-- Ending slide - talk about how using flex box as needed and not automatically for everything, browser support, simple things like ordering
-- Links to learning resources
-- Pre-slides
-- Timer

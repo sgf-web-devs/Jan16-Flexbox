@@ -4,7 +4,7 @@
     <h1>Header w/ Logo</h1>
 </header>
 
-<div class="demo3">
+<div class="header_with_logo">
     <div class="site_header">
         <div class="logo">
             <img src="/images/horse.jpg" alt="">

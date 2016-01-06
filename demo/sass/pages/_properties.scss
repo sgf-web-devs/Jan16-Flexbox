@@ -1,0 +1,152 @@
+.properties_demo
+{
+    // FLEX CONTAINER //
+
+    display: flex;
+    //height: 300px; background: #000;
+
+    ///////////////////////////////////////////////////////////////
+
+    // Direction
+
+    //flex-direction: row;
+    //flex-direction: row-reverse;
+    //flex-direction: column;
+    //flex-direction: column-reverse;
+
+    ///////////////////////////////////////////////////////////////
+
+    // Wrapping
+
+    //flex-wrap: nowrap;
+    //flex-wrap: wrap;
+    //flex-wrap: wrap-reverse;
+
+    // Flex Flow -> flex-direction | flex-wrap
+    //flex-flow: row wrap;
+
+    ///////////////////////////////////////////////////////////////
+
+    // Justify Content
+    // This defines the alignment along the main axis. It
+    // helps distribute extra free space left over when
+    // either all the flex items on a line are inflexible,
+    // or are flexible but have reached their maximum size.
+    // It also exerts some control over the alignment of
+    // items when they overflow the line.
+
+    //justify-content: flex-start;
+    //justify-content: flex-end;
+    //justify-content: center;
+    //justify-content: space-between;
+    //justify-content: space-around;
+
+    ///////////////////////////////////////////////////////////////
+
+    // Align Items
+    // This defines the default behaviour for how flex
+    // items are laid out along the cross axis on the
+    // current line. Think of it as the justify-content
+    // version for the cross-axis (perpendicular to the main-axis)
+
+    //align-items: stretch;
+    //align-items: flex-start;
+    //align-items: flex-end;
+    //align-items: center;
+    //align-items: baseline;
+
+    //div:nth-child(4) { font-size: 2em; }
+    //div:nth-child(6) { font-size: 3.25em; }
+
+    ///////////////////////////////////////////////////////////////
+
+    // Align Content
+    // This aligns a flex container 's lines within when
+    // there is extra space in the cross-axis, similar to
+    // how justify-content aligns individual items within
+    // the main-axis.
+
+    //align-content: stretch;
+    //align-content: flex-start;
+    //align-content: flex-end;
+    //align-content: center;
+    //align-content: baseline;
+
+    ///////////////////////////////////////////////////////////////
+
+    div {
+        //width: 25%;
+    }
+
+
+
+
+    // FLEX ITEMS //
+
+    ///////////////////////////////////////////////////////////////
+
+    // Order
+    //div:nth-child(4) { order: -1; border: 5px solid red; }
+    //div:nth-child(1) { order: 7; border: 5px solid red; }
+    //div:nth-child(2) { order: 8; border: 5px solid red; }
+    //div:nth-child(3) { order: 9; border: 5px solid red; }
+
+    ///////////////////////////////////////////////////////////////
+
+    // Flex Grow
+    // This defines the ability for a flex item to grow if necessary.
+    // It accepts a unitless value that serves as a proportion.
+    // It dictates what amount of the available space inside the
+    // flex container the item should take up.
+
+    //div { flex-grow: 1; }
+    //div:nth-child(4) { flex-grow: 3; }
+
+    ///////////////////////////////////////////////////////////////
+
+    // Flex Shrink
+    // This does the exact opposite of flex-grow
+
+    //div:nth-child(5) { flex: 1 1 500px; }
+    //div:nth-child(6) { flex: 2 2 500px; }
+
+    ///////////////////////////////////////////////////////////////
+
+    // Align Self
+    // This allows the default alignment (or the one
+    // specified by align-items) to be overridden for
+    // individual flex items
+
+    //div:nth-child(8) { align-self: stretch; }
+    //div:nth-child(5) { align-self: flex-end; }
+    //div:nth-child(8) { align-self: center; }
+    //div:nth-child(1) { align-self: baseline; }
+    //div:nth-child(3) { align-self: flex-start; }
+
+    ///////////////////////////////////////////////////////////////
+}
+
+
+
+
+
+
+
+
+
+
+
+// Irrelevant Styling
+.properties_demo
+{
+    div { padding: 20px; }
+    div:nth-child(1) { background: $color1; }
+    div:nth-child(2) { background: $color2; }
+    div:nth-child(3) { background: $color3; }
+    div:nth-child(4) { background: $color4; }
+    div:nth-child(5) { background: $color5; }
+    div:nth-child(6) { background: $color6; }
+    div:nth-child(7) { background: $color7; }
+    div:nth-child(8) { background: $color8; }
+    div:nth-child(9) { background: $color9; }
+}

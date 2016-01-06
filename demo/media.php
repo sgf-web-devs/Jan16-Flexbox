@@ -4,7 +4,7 @@
     <h1>Media Object</h1>
 </header>
 
-<div class="demo5">
+<div class="media_object">
     <div class="comment">
         <img src="/images/meme.jpg" alt="lol alt" />
         <div class="content">

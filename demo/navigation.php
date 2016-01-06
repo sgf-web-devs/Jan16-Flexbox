@@ -4,7 +4,7 @@
     <h1>Navigation</h1>
 </header>
 
-<div class="demo2">
+<div class="navigation">
     <ul>
         <li><a href="#">Dude</a></li>
         <li><a href="#">Walter</a></li>
